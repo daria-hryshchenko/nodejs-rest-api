@@ -59,3 +59,4 @@ POST /api/contacts 25-04-2023__10:21:53
 POST /api/contacts 25-04-2023__10:24:21
 DELETE /api/contacts/29FRUNr6tyvSrvgsY42iz 25-04-2023__10:24:35
 PUT /api/contacts/rsKkOQUi80UsgVPCcLZZW 25-04-2023__10:27:17
+GET /api/contacts 28-04-2023__07:33:39
