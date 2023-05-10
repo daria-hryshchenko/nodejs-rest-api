@@ -9,7 +9,6 @@ mongoose
   .connect(DB_HOST)
   .then(() => {
     app.listen(3000);
-    console.log(`listening`);
   })
   .catch((err) => {
     console.log(err.message);
