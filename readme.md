@@ -1,20 +1,16 @@
 
 This Program Is Written In Node JS 🚀
 
-Created a REST API to work with a collection of contacts. Postman is used to work with REST API. Also use  MongoDB
+Created a REST API to work with a collection of contacts. Postman is used to work with REST API. Also use  MongoDB/MongoDB Atlas/MongoDB Compass 
 
 ➡ Get and display the list of contacts
 
-
-![image](https://user-images.githubusercontent.com/98493900/234385566-cafe1627-c98e-4e53-82de-d4b7a34866f9.png)
-
-
+![image](https://github.com/daria-hryshchenko/nodejs-rest-api/assets/98493900/f7420bc7-2eed-4573-894e-9731c490dbe1)
 
 ➡ Get contact by id
 
 
-![image](https://user-images.githubusercontent.com/98493900/234385753-505c029d-713f-4747-a842-119d9f5ecf26.png)
-
+![image](https://github.com/daria-hryshchenko/nodejs-rest-api/assets/98493900/8af20035-f3ff-4b3b-9cd0-275e944d626e)
 
 
 ➡ Adding a contact and if not all fields are specified, then an error is thrown
