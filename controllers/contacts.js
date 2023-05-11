@@ -1,6 +1,6 @@
 const { Contact } = require("./../models/contact");
 
-const { HttpError, ctrlWrapper } = require("./../helpers/index");
+const { ctrlWrapper } = require("./../helpers/index");
 
 const listContacts = async (req, res) => {
   const data = await Contact.find();
@@ -14,5 +14,5 @@ const listContacts = async (req, res) => {
 
 module.exports = {
   listContacts: ctrlWrapper(listContacts),
-  addContact: ctrlWrapper(addContact),
+  // addContact: ctrlWrapper(addContact),
 };
