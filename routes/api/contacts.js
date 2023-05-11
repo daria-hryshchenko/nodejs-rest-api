@@ -5,6 +5,6 @@ const { schemas } = require("../../models/contact");
 const router = express.Router();
 router.get("/", ctrl.listContacts);
 
-// router.post("/", validateBody(schemas.addSchema), ctrl.addContact);
+router.post("/", validateBody(schemas.addSchema), ctrl.addContact);
 
 module.exports = router;

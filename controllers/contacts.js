@@ -7,12 +7,12 @@ const listContacts = async (req, res) => {
   res.json(data);
 };
 
-// const addContact = async (req, res) => {
-//   const data = await Contact.create(req.body);
-//   res.status(201).json(data);
-// };
+const addContact = async (req, res) => {
+  const data = await Contact.create(req.body);
+  res.status(201).json(data);
+};
 
 module.exports = {
   listContacts: ctrlWrapper(listContacts),
-  // addContact: ctrlWrapper(addContact),
+  addContact: ctrlWrapper(addContact),
 };
